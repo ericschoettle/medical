@@ -6,7 +6,7 @@ $(function() {
   $('#doctorSearch').submit(function(event) {
     event.preventDefault();
     var medicalIssue = $('#medicalIssue').val();
-    var location = $('#location').val();
+    var location = $('#location').val().toLowerCase();
     getDoctors(medicalIssue);
   });
 });
