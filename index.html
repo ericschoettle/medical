@@ -9,15 +9,20 @@
     <title>Doctors</title>
   </head>
   <body>
-    <h1>Find a doctor in Seattle</h1>
-    <form id ="doctorSearch">
-      <label for="medicalIssue">Medical Issue:</label>
-      <input type="text" id="medicalIssue">
-      <label for="location">Location:</label>
-      <input type="text" id="location">
-      <button type="submit">Search</button>
-    </form>
-    <h3>Doctors</h3>
-    <ul id='doctorList'></ul>
+    <div class="container">
+      <h1>Find a doctor in Seattle</h1>
+      <form id ="doctorSearch">
+        <label for="medicalIssue">Medical Issue:</label>
+        <input type="text" id="medicalIssue">
+        <!-- <label for="location">Location:</label>
+        <input type="text" id="location"> -->
+        <button type="submit">Search</button>
+      </form>
+      <div class="results">
+        <h3>Doctors</h3>
+        <h4>Click on a doctor's name for more details</h4>
+        <ul id='doctor-list'></ul>
+      </div>
+    </div>
   </body>
 </html>

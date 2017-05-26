@@ -1,0 +1,24 @@
+body {
+  background-image: url('../img/stethoscope.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.results {
+  background-color: white;
+  opacity: .5;
+  display: none;
+}
+
+.contact {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
