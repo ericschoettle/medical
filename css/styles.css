@@ -16,7 +16,8 @@ h1 {
 }
 
 .contact {
-  background-color: tan;
+  background-color: #ff003b;
+  color: white;
   border-radius: 5px;
   display: none;
 }
