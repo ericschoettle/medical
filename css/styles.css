@@ -2,15 +2,22 @@ body {
   background-image: url('../img/stethoscope.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
+  font-size: large;
 }
 
+h1 {
+  background-color: #ff003b;
+  color: white;
+  padding: 12px;
+}
 .results {
-  background-color: white;
-  opacity: .5;
+  background: rgba(255,255,255,0.7);
   display: none;
 }
 
 .contact {
+  background-color: tan;
+  border-radius: 5px;
   display: none;
 }
 
