@@ -5,9 +5,10 @@ var getDoctors = require('./../js/medical.js').getDoctors;
 $(function() {
   $('#doctorSearch').submit(function(event) {
     event.preventDefault();
-    var specialty = $('#specialty').val();
+    var medicalIssue = $('#medicalIssue').val();
     var location = $('#location').val();
+    getDoctors(medicalIssue);
   });
 });
-getDoctors(medicalIssue);
+
 //end test code
