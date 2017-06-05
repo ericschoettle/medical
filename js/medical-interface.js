@@ -16,7 +16,6 @@ var displayList = function(result) {
 
 $(document).ready(function() {
   var currentList = new DoctorList();
-
   $('#doctorSearch').submit(function(event) {
     event.preventDefault();
     $('.results').show();

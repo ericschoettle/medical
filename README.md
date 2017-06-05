@@ -26,7 +26,7 @@ _Medical app allows a user to input their ailment and will return a list of twen
 
 ## Known bugs
 
-* _Only displays one practice/doctor_
+* _Only displays one practice per doctor_
 * _Practices without a second address line display "undefined" instead of leaving blank_
 
 ## Support and contact details
