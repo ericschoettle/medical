@@ -19,5 +19,5 @@ DoctorList.prototype.getDoctors = function(medicalIssue, displayList) {
        $('#doctor-list').text('error');
      });
 };
-
+exports.doctorModule = Doctor;
 exports.listModule = DoctorList;
